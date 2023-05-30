@@ -30,5 +30,7 @@ server*/plugins/GriefPreventionData/_schemaVersion
 server*/plugins/update/
 
 server*/plugins/GriefPreventionData/bannedWords.txt
+# server*/plugins/SkinsRestorer/languages/
 
-server0001/plugins/HuskSync/config.yml
+server*/plugins/HuskSync/config.yml
+server*/plugins/SkinsRestorer/Archive/
