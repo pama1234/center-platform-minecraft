@@ -1,0 +1,69 @@
+commands:
+  disabled: '&c此命令已被禁用'
+  player_unregistered: '&b{player} &e已成功注销！'
+  errors:
+    player_only: '&c这是一个仅适用于玩家端的命令'
+    no_permission: '&c您没有使用此命令的权限'
+    player_not_found: '&c未找到玩家！'
+    unregister_failed: '&c删除密码失败。阅读控制台了解更多信息'
+  set: '&e此 {type} 位置已设置在 &bX: {x}, Y: {y}, Z: {z}, Y: {yaw},
+    P: {pitch}, &e在世界 &b"{world}"'
+  reload: '&e插件已重新加载！'
+  descriptions:
+    userlogin: UserLogin的主命令（本翻译由pama1234制作）
+    login: 用于登录账号
+    register: 用于注册账号
+    changepassword: 用于更改您的密码
+  usages:
+    userlogin: '&c正确用法: /userlogin [command] 
+      (/userlogin [某命令]) (使用 /ul help 了解更多信息)'
+    login: '&c正确用法: /login <password> (/login [您的密码])'
+    register: '&c正确用法: 
+      /register <password> <password> 
+      (/register [密码] [重复密码]) '
+    changepassword: '&c正确用法: 
+      /changepassword <old-password> <new-password> <new-password> 
+      (/changepassword <旧的密码> <新密码> <重复新密码>)'
+messages:
+  not_registered: '&c您还未注册！使用 &a/register <password> <password> 
+    (/register <密码> <重复密码>) 
+    &c进行注册! '
+  already_registered: '&c您已注册！'
+  incorrect_password: '&4密码错误！'
+  short_password: '&c您的密码必须至少有 &4{chars} &c个字符'
+  long_password: '&c您的密码最多只能有 &4{chars} &c个字符'
+  regex_mismatch: '&c宁的密码写的不太好！'
+  different_passwords: '&c宁的密码很可能填错啦！（不爽脸）'
+  already_logged_in: '&c您已经登录了！'
+  logged_in: '&6登录成功！'
+  registered: '&6注册成功！'
+  register_failed: '&c注册失败，请重试。'
+  welcome:
+    registered: '&6欢迎！使用 
+      &3/login <password> （/login <您的密码>）&6
+      登录服务器'
+    unregistered: '&6欢迎！使用 
+      &3/register <password> <password> 
+      （/register <您的密码> <重复密码> ）&6
+      注册您的账号
+      &7(要重复输入两次来设置密码，欢迎新玩家，么么)'
+  chat_disabled: '&c您必须先登录才能聊天！'
+  timeout: 宁呆太久辣
+  max_attempts_exceeded: 宁试了 {count} 次都没成功登录，请继续努力吧！
+  login_announcement: '&e{player} 加入了服务器！'
+  move_warning: '&c小可爱，您必须登录才能移动哦！'
+  commands_disabled: '&c您必须登录才能使用命令哦！'
+  must_log_in: '&c您必须登录才能使用这一条命令哦！'
+  password_changed: '&6您的密码已成功更改'
+  password_change_error: '&c本服务器试图修改您的密码时发生错误（抱歉'
+  help:
+  - '&a----------- | &2[UserLogin 帮助页面] &a| -----------'
+  - '&2/ul help: &a显示此列表'
+  - '&2/ul reload: &a重新加载配置'
+  - '&2/ul set [login|spawn]: &a在您的位置设置登录后位置或出生位置'
+  - '&2/ul unregister <player>: &a注销指定玩家（unregister <玩家用户名>）'
+  - '&a-----------------------------------------------------'
+other:
+  database_connected: '&e已连接到数据库！'
+  database_error: '&c无法连接到数据库，如下所示：'
+  driver_missing: '&cJava数据库连接驱动缺失: {driver}'
